@@ -1,0 +1,265 @@
+body {
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    background: #ecf0f1;
+}
+
+header {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    min-width: 800px;
+    background: #ecf0f1;
+    position: fixed;
+}
+
+nav {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+    min-width: 800px;
+}
+
+nav a, nav a:visited, nav a:hover {
+    color: dimgray;
+    font-style: normal;
+    text-decoration: none;
+}
+
+#left {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    width: 70%;
+    float: left;
+}
+
+#left li {
+    list-style: none;
+}
+
+#left li ul {
+    display: inline-block;
+    margin: 24px 10px
+}
+
+#left li ul:first-of-type {
+    letter-spacing: 6px;
+}
+
+#right {
+    width: 20%;
+    float: right;
+    display: block;
+    margin: 14px
+}
+
+#section1 {
+    width: 100%;
+    height: 500px;
+    background: #EC6F66; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EC6F66 , #F3A183); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EC6F66 , #F3A183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    
+    padding-top: 100px;
+}
+
+#section1 h1 {
+    font-size: 90px;
+    font-style: normal;
+    letter-spacing: 10px;
+}
+
+#section2 {
+    background: #ecf0f1;
+    width: auto;
+    height: 300px;
+}
+
+#section2 h3 {
+    font-weight: 600;
+    padding-left: 30px;
+}
+
+.underSection {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 800px;
+}
+
+.windowDiv {
+    padding-top: 30px;
+    width: 33%;
+    display: inline-block;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.windowIcon {
+    width: 30%;
+    float: left;
+    font-size: 45px;
+    padding: 32px 32px;
+    color: #EC6F66;
+}
+
+.windowText {
+    width: 60%;
+    float: right;
+}
+
+#section3 {
+    background: #fff;
+    width: 100%;
+    height: auto;
+    color: dimgray;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 100px;
+}
+
+#section3 h3 {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.underSection3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 830px;
+}
+
+.row {
+    padding: 20px;
+}
+
+.leftColumn {
+    float: left;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+.rightColumn {
+    float: right;
+}
+
+#bigImage {
+    margin-left: -425px;
+}
+
+.smallRow img{
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+footer {
+    background-color: #2c3e50;
+    height: 200px;
+    text-align: center;
+    text-decoration: none;
+    color:#fff;
+    font-size: 16px;
+    letter-spacing: -4px;
+    margin-top: 100px;
+}
+
+#footerSubscribe {
+    height: 100px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+#footerSubscribe input, #footerSubscribe button  {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#footerSubscribe button {
+    background-color: #EC6F66;
+    border: 1px solid #EC6F66 ;
+    letter-spacing: 1px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#footerSubscribe input {
+    border: 1px solid #EC6F66 ;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: black;
+}
+
+footer hr {
+    margin-top: -5px;
+    width: 820px;
+}
+
+#footerInfo {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+
+#contact {
+    background: #ecf0f1;
+    height: 620px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 800px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#contact input, #contact textarea {
+    display: inline-block;
+    width: 690px;
+    height: 50px;
+    margin-top: 30px;
+    padding-left: 10px;
+    color:#000;
+}
+
+textarea#message {
+    display: inline-block;
+    height: 150px;
+}
+
+#submitContact {
+    display: inline-block;
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: #EC6F66;
+    border: 1px solid #EC6F66;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#submitContact:hover {
+    background-color: #F3A183;
+    border: 1px solid #F3A183;
+}
