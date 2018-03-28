@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Drag and Drop</title>
+<style>
+	#div1 {
+		width: 240px;
+		height: 240px;
+		padding: 10px;
+		border: 1px black solid;
+		float: left;
+	}
+</style>
+<script type="text/javascript" src="modernizr-custom.js"></script>
+<script type="text/javascript">
+	if(Modernizr.draganddrop && window.FileReader){
+		document.write("hello");
+	} else {
+		document.write("not hello");
+	}
+</script>
+</head>
+<body>
+<h1>Drag html logo into the box</h1>	
+	
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+	
+</div>
+<img src="html5.jpg" draggable="true" ondragstart="drag(event)">
+
+	
+	
+	
+</body>	
+</html>
